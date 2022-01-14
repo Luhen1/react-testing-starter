@@ -11,7 +11,7 @@
       "phoneNumber": "625-316-9882",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/t45AiwidW.svg",
       "defaultPrivacyLevel": "public",
-      "balance": 9931700,
+      "balance": 9929200,
       "createdAt": "2019-08-27T23:47:05.637Z",
       "modifiedAt": "2020-05-21T11:02:22.857Z"
     },
@@ -71,7 +71,7 @@
       "phoneNumber": "277-189-3402",
       "avatar": "https://cypress-realworld-app-svgs.s3.amazonaws.com/tsHF6_D5oQ.svg",
       "defaultPrivacyLevel": "contacts",
-      "balance": 93669,
+      "balance": 96169,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
     }
@@ -10011,6 +10011,66 @@
       "status": "complete",
       "createdAt": "2022-01-14T17:06:54.638Z",
       "modifiedAt": "2022-01-14T17:06:54.638Z"
+    },
+    {
+      "id": "f_LGYgvYo",
+      "uuid": "8ab41d6f-8ddf-4e41-95ab-dd6645b506ce",
+      "amount": 500,
+      "description": "d14c804d-f5c5-4139-970d-5207fa5c40ba",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2022-01-14T17:08:00.301Z",
+      "modifiedAt": "2022-01-14T17:08:00.301Z"
+    },
+    {
+      "id": "Jaf6AB-Mw",
+      "uuid": "4aabfa71-df61-485f-844e-f77eb33414d7",
+      "amount": 500,
+      "description": "18781b2d-a213-4e50-9baa-a3b4427253fe",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2022-01-14T17:08:32.003Z",
+      "modifiedAt": "2022-01-14T17:08:32.003Z"
+    },
+    {
+      "id": "fJ-qz6Jsg",
+      "uuid": "f1d8d633-5117-441f-b0eb-2dfd2107fa33",
+      "amount": 500,
+      "description": "b24df91d-4dc6-4567-a36e-df78d7d5ad67",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2022-01-14T17:09:21.101Z",
+      "modifiedAt": "2022-01-14T17:09:21.101Z"
+    },
+    {
+      "id": "qJ-lX550F",
+      "uuid": "1b9565bb-86d3-4d30-917e-3e393892a51f",
+      "amount": 500,
+      "description": "550961d7-2c85-49ae-a067-465e07dc0521",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2022-01-14T17:11:29.854Z",
+      "modifiedAt": "2022-01-14T17:11:29.854Z"
+    },
+    {
+      "id": "6ANDlBNWw",
+      "uuid": "f2172891-639c-48df-b44c-5f4d331fcc3d",
+      "amount": 500,
+      "description": "4ad5f5df-2cbd-4520-9683-f67283296316",
+      "receiverId": "tsHF6_D5oQ",
+      "senderId": "t45AiwidW",
+      "privacyLevel": "public",
+      "status": "complete",
+      "createdAt": "2022-01-14T17:52:38.903Z",
+      "modifiedAt": "2022-01-14T17:52:38.903Z"
     }
   ],
   "likes": [
@@ -10717,6 +10777,56 @@
       "isRead": false,
       "createdAt": "2022-01-14T17:06:54.660Z",
       "modifiedAt": "2022-01-14T17:06:54.660Z"
+    },
+    {
+      "id": "MHIPEeBy2n",
+      "uuid": "3ebc1da6-f154-4786-a926-82c9b9f23e74",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "f_LGYgvYo",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2022-01-14T17:08:00.322Z",
+      "modifiedAt": "2022-01-14T17:08:00.322Z"
+    },
+    {
+      "id": "M3I71kmPAT",
+      "uuid": "0d494617-1efb-43cd-9a46-d72b5d534a63",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "Jaf6AB-Mw",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2022-01-14T17:08:32.023Z",
+      "modifiedAt": "2022-01-14T17:08:32.023Z"
+    },
+    {
+      "id": "UcqVOs22Qb",
+      "uuid": "a26ea197-4956-4467-8f95-b0637cf48f0d",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "fJ-qz6Jsg",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2022-01-14T17:09:21.126Z",
+      "modifiedAt": "2022-01-14T17:09:21.126Z"
+    },
+    {
+      "id": "cnFqNFCKv-",
+      "uuid": "8671d64f-bc7c-400a-8a9a-ca3ffefd9ed7",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "qJ-lX550F",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2022-01-14T17:11:29.875Z",
+      "modifiedAt": "2022-01-14T17:11:29.875Z"
+    },
+    {
+      "id": "bGZ0xG2flk",
+      "uuid": "b49ba24d-4aac-4dbf-aa15-32a90dd5297d",
+      "userId": "tsHF6_D5oQ",
+      "transactionId": "6ANDlBNWw",
+      "status": "received",
+      "isRead": false,
+      "createdAt": "2022-01-14T17:52:38.930Z",
+      "modifiedAt": "2022-01-14T17:52:38.930Z"
     }
   ],
   "banktransfers": [

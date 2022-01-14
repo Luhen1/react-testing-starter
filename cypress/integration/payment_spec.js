@@ -33,11 +33,10 @@ describe('payment', () => {
         cy.findByText(`-$${paymentAmount}`).should('be.visible')
         cy.findByText(note).should('be.visible')
         // verify if payment amount was deduct 
-        cy.get('[data-test="sidenav-user-balance"]').then($balance =>{
-            const convertedOldBalance = parseFloat(oldBalance.replace(/\$|, /g, ""));
-            const convertedNewBalance = parseFloat($balance.text().replace(/\$|, /g, ""));
-            expect(convertedOldBalance - convertedNewBalance).toBe.equal(parseFloat(paymentAmount));
-        })
-             
-    })
-})
+        cy.get('[data-test=sidenav-user-balance]').then($balance => {
+            const convertedOldBalance = parseFloat(oldBalance.replace(/\$|,/g, ""));
+            const convertedNewBalance = parseFloat($balance.text().replace(/\$|,/g, ""));
+            expect(convertedOldBalance - convertedNewBalance).to.equal(parseFloat(paymentAmount));
+        });
+    });
+});

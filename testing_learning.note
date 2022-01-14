@@ -1,0 +1,87 @@
+yarn add cypress --dev
+
+package.json
+--> "scripts": {
+	"test": "cypress open"
+	}
+
+
+
+Testing topics
+- unit tests - testing functions, testing 1 thing
+- integration tests - tests multiple case together. unit tests in larger tests
+- end-to-end tests - 
+- TDD
+- BDD
+
+tech use
+- jest
+- cypress
+- react testing library - octopus logo
+
+why should we test?
+GOAL - check whether an application behaves as expected
+safeguard against unwanted behaviour when changes are made
+automated, and thus effcient on the long-term
+
+what should you test?
+
+priority:
+
+1 - High value features - The ones that gives more money.
+2 - Edge cases in high value features
+3 - Things that are easy to break
+4 - Basic React components testing
+ - UI
+ - conditional rendering
+ - Utils / hooks
+
+Testing envolves trying to break your code whereas your code is great for only 10 people. But is it effective against 10,000 people?
+
+Avoids bugs to recur. 
+
+UI - onclicks, unchange events
+conditional rendering, props or in useState, redux.
+utils / hooks - axios, hooks that conects to backend etc.  
+
+dont waste time on implementation testing 
+- after mutation, state hook useDate hook. the problem is that its not relevant to the user that actually uses your app.
+
+
+Good practice for testing
+- if you´re making a assertion. first do it the opposite side right.
+- If the thing passes. Dont ilude yourself. it might have bugs and something is strange going on.  
+
+Testing pattern
+- Arrange, Act, Assert
+ex.
+Arranging the component from react 
+Act - user events, typing, clicking things 
+Assertion - Making sure that it runs smoothly as expected
+
+
+Integration tests - BDD - behaviour driven
+- You can combine 2 or more unit tests into 1 integration tests
+This mimicks the user experience and user flow. So that is great to test a user experience
+- integration tests is not a combination of unit tests. Its more about mimicking user experience
+ex.
+How would a user use my app? 
+testing user payment. Clicks on a button. sees that the pay button is disabled. enters amount and a note. pay button enables. clicks the button. redirect to step 3.
+This is a integration tests. you get to test each part and combine it in a single block of code and test that experience as expected with loads of expect(). 
+
+End-to-end testing. - great for testing high value features
+- sees simulations on the screen
+- cypress -> yarn add -D cypress @testing-library/cypress
+- then yarn run cypress open
+
+useful extensions 
+- chrome - testing playground 
+
+E2E cypress - high value feature
+integration / unit 
+- edge cases in high value features
+- things that are easy to break 
+- basic react component
+- ui
+- conditional rendering
+- utils/hooks
